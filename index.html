@@ -252,6 +252,11 @@
     const sail = new THREE.Mesh(sGeo, matSail); sail.position.set(0, 3.2, -0.4); boatGroup.add(sail);
 
 
+        // Audio Setup
+    const music = new Audio('sunset.mp3');
+    music.loop = true; // Loops forever once started
+
+
     // ===============================================
     // ================ NEUE LÖSUNG ==================
     // ===============================================
